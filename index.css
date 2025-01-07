@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: #ff9966;
+}
+.container{
+    border:2px solid black;
+    height:60vh;
+    width:20vw;
+    border-radius:20px;
+    background-color: #ffffcc;
+}
+h2{
+    color:green;
+    margin-top:4vh;
+    text-align: center;
+    font-family:sans-serif;
+}
+.forms{
+    margin-left:2vw;
+    margin-top:2vh;
+}
+input{
+    width:75%;
+    height:4vh;
+    margin-top:1vh;
+    border-radius:5px;
+}
+p{
+    margin-top:2vh;
+}
+select{
+    border:1px solid black;
+    width:50%;
+    height:4vh;
+    margin-top:1vh;
+    border-radius:10px;
+    overflow: auto;
+    background-color: antiquewhite;
+}
+img{
+    height:5vh;
+    margin:2vh 0 0 2.5vw;
+}
+.msg{
+    margin:2vh 0 0 2vw;
+    text-align:center;
+}
+.btn{
+    margin-top:5vh;
+    height:4vh;
+    width:50%;
+    text-align:center;
+    background-color: #8080ff;
+    margin-left:4.5vw;
+    color:white;
+    font-family:sans-serif;
+}
+.btn:hover{
+    box-shadow: 2px -5px 10px #ff9966;
+}
+@media (min-width:1025px) and (max-width:1280px){
+    .container{
+        height:65vh;
+        width:30vw;
+    }
+    input{
+        width:80%;
+    }
+    .msg{
+        margin:4vh 0 0 2vw;
+    }
+    .btn{
+        margin:5vh 0 0 6vw;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .container{
+        height:65vh;
+        width:35vw;
+    }
+    .input{
+        width:85%;
+    }
+    .msg{
+        margin:4vh 0 0 2vw;
+    }
+    .btn{
+        margin:6vh 0 0 7vw;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px){
+    .container{
+        height:65vh;
+        width:50vw;
+    }
+    .input{
+        width:85%;
+    }
+    .msg{
+        margin:6vh 0 0 2vw;
+    }
+    .btn{
+        margin:6vh 0 0 12vw;
+    }
+}
+@media (max-width: 480px){
+    .container{
+        height:75vh;
+        width:75vw;
+    }
+    .input{
+        width:85%;
+    }
+    .msg{
+        margin:8vh 0 0 2vw;
+    }
+    .btn{
+        margin:8vh 0 0 15vw;
+    }
+}
